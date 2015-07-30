@@ -1,0 +1,15 @@
+doc
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeCache.txt
+CMakeFiles
+Makefile
+vcfvifia
+Doxyfile
+src/config.hpp
+tests/cmake_install.cmake
+tests/CTestTestfile.cmake
+tests/CMakeCache.txt
+tests/CMakeFiles
+tests/Makefile
+tests/tests

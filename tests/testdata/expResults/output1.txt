@@ -1,0 +1,10 @@
+samples                  3    
+total records            7    
+records passed filter:   7     (100.00 % of total)
+snps                     3    
+mnps                     0    
+insertions               1     (including 0 larger insertions)
+deletions                0     (including 0 larger deletions)
+complex                  3    
+multiallelic sites       3    
+multiallelic snp sites   1    

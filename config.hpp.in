@@ -1,0 +1,10 @@
+#ifndef CONFIG_HPP
+#define CONFIG_HPP
+
+#define GNUPLOT @GNUPLOTINSTALLED@
+
+bool isGnuplotInstalled() {
+  return @GNUPLOTINSTALLED@;
+}
+
+#endif // CONFIG_HPP

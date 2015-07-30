@@ -1,0 +1,2 @@
+file snp mnp insertion deletion complex
+short.vcf 3 0 1 0 3

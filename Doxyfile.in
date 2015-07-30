@@ -1,0 +1,62 @@
+#
+# This file is part of VCFvifia.
+#
+# VCFvifia is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# VCFvifia is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with VCFvifia. If not, see <http://www.gnu.org/licenses/>.
+#
+
+PROJECT_NAME           = "VCFvifia"
+
+PROJECT_BRIEF          = "This tool creates basic statistic, plots and file comparison of vcf files"
+
+OUTPUT_DIRECTORY       = "doc"
+
+INPUT                  = @CMAKE_SOURCE_DIR@/src
+
+FILE_PATTERNS          = *.cpp *.hpp
+
+RECURSIVE              = YES
+
+MULTILINE_CPP_IS_BRIEF = YES
+
+EXTRACT_ALL            = YES
+
+EXTRACT_STATIC         = YES
+
+SHOW_DIRECTORIES       = YES
+
+SOURCE_BROWSER         = YES
+
+HTML_DYNAMIC_SECTIONS  = YES
+
+USE_MATHJAX            = YES
+
+PAPER_TYPE             = letter
+
+HIDE_UNDOC_RELATIONS   = NO
+
+HAVE_DOT               = YES
+
+CALL_GRAPH             = YES
+
+CALLER_GRAPH           = YES
+
+JAVADOC_AUTOBRIEF      = YES
+
+INPUT                 += README.md
+
+USE_MDFILE_AS_MAINPAGE = README.md
+
+HAVE_DOT               = YES
+
+UML_LOOK               = YES

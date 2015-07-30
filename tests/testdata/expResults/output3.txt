@@ -1,0 +1,13 @@
+subst counts frequency
+A>T 1 0.666667
+A>G 1 0.333333
+A>C 0 -1
+T>A 1 0.166667
+T>G 0 -1
+T>C 0 -1
+G>A 1 0.5
+G>T 0 -1
+G>C 0 -1
+C>A 0 -1
+C>G 0 -1
+C>T 0 -1

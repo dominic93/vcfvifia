@@ -1,0 +1,6 @@
+[submodule "3rd-party/gnuplot-iostream"]
+	path = 3rd-party/gnuplot-iostream
+	url = https://github.com/dstahlke/gnuplot-iostream
+[submodule "3rd-party/vcflib"]
+	path = 3rd-party/vcflib
+	url = https://github.com/ekg/vcflib

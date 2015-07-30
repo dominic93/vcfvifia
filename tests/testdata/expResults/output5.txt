@@ -1,0 +1,43 @@
+-- printing comparison results --
+
+-- file venter.chr1.unphased.vcf only --
+
+# snps: 175615
+# mnps: 2458
+# insertions: 31518
+# deletions: 29481
+# complex: 1400
+
+-- file freebayes.len50000.vcf only --
+
+# snps: 515
+# mnps: 367
+# insertions: 0
+# deletions: 0
+# complex: 1327
+
+-- file venter.chr1.unphased.vcf and freebayes.len50000.vcf --
+
+# snps: 1350
+# mnps: 17
+# insertions: 0
+# deletions: 0
+# complex: 14
+
+fraction of records in freebayes.len50000.vcf compared to venter.chr1.unphased.vcf: 0.0148
+
+-- printing validation results --
+-- SNP --
+venter.chr1.unphased.vcf / freebayes.len50000.vcf 0/1 1/1 
+0/1 1.0000 0.0000 
+1/1 0.0279 0.9721 
+
+-- MNP --
+venter.chr1.unphased.vcf / freebayes.len50000.vcf 0/1 1/1 
+0/1 1.0000 0.0000 
+1/1 0.0909 0.9091 
+
+-- COMPLEX --
+venter.chr1.unphased.vcf / freebayes.len50000.vcf 0/1 
+0/1 1.0000 
+
